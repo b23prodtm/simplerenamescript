@@ -187,7 +187,7 @@
 					4833EF472D2FE1A70047465C = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = MDLZG8NQNK;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					4833EF6F2D2FFCDC0047465C = {
 						CreatedOnToolsVersion = 8.2.1;
