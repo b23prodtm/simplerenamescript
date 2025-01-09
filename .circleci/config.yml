@@ -26,6 +26,13 @@ jobs: # a basic unit of work in a run
       - store_artifacts: # store this build output. Read more: https://circleci.com/docs/2.0/artifacts/
           path: app.zip
           destination: app
+  deploy:
+    macos:
+      xcode: 13.4.1 # indicate your selected version of Xcode
+    stops:
+      - run:
+          name: artifact link (set CIRCLE_TOKEN_READONLY from API Permissions)
+          command: curl -H "Circle-Token: $CIRCLE_TOKEN_READONLY" https://circleci.com/api/v1.1/project/github/b23prodtm/simplerenamescript/latest/artifacts
 
 workflows:
   test_build:
@@ -34,3 +41,6 @@ workflows:
       - build:
           requires:
             - test
+      - deploy:
+          requires:
+            - build
