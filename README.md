@@ -1,5 +1,4 @@
-Rename Script
-#############
+# Rename Script
 Example:
 A list of MP3 files would be renamed to Song-SomePlaylist.MP3 like that
 ./Rename.sh ".mp3" "-SomePlayList.mp3"
