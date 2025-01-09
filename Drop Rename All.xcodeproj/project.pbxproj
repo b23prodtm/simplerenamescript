@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		480EF7EA2D30236000030E8C /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 480EF7E92D30236000030E8C /* AppDelegate.applescript */; };
-		480EF7EC2D302F9D00030E8C /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 480EF7E92D30236000030E8C /* AppDelegate.applescript */; };
 		480EF7ED2D3030BA00030E8C /* AppDelegate.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 480EF7E92D30236000030E8C /* AppDelegate.applescript */; };
 		4833EF4C2D2FE1A70047465C /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4833EF4B2D2FE1A70047465C /* AppleScriptObjC.framework */; };
 		4833EF502D2FE1A70047465C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4833EF4F2D2FE1A70047465C /* main.m */; };
@@ -255,7 +254,6 @@
 			files = (
 				4833EF862D300B850047465C /* AppleScriptRunner.m in Sources */,
 				4833EF732D2FFCDC0047465C /* Drop_Rename_AllTests.m in Sources */,
-				480EF7EC2D302F9D00030E8C /* AppDelegate.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
