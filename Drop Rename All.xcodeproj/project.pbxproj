@@ -9,17 +9,32 @@
 /* Begin PBXBuildFile section */
 		4833EF4C2D2FE1A70047465C /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4833EF4B2D2FE1A70047465C /* AppleScriptObjC.framework */; };
 		4833EF502D2FE1A70047465C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4833EF4F2D2FE1A70047465C /* main.m */; };
-		4833EF522D2FE1A70047465C /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 4833EF512D2FE1A70047465C /* AppDelegate.applescript */; };
+		4833EF522D2FE1A70047465C /* AppDelegate.scpt in Sources */ = {isa = PBXBuildFile; fileRef = 4833EF512D2FE1A70047465C /* AppDelegate.scpt */; };
 		4833EF542D2FE1A80047465C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4833EF532D2FE1A80047465C /* Assets.xcassets */; };
 		4833EF572D2FE1A80047465C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4833EF552D2FE1A80047465C /* MainMenu.xib */; };
 		4833EF672D2FEC7E0047465C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4833EF652D2FEC7E0047465C /* Localizable.strings */; };
+		4833EF732D2FFCDC0047465C /* Drop_Rename_AllTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4833EF722D2FFCDC0047465C /* Drop_Rename_AllTests.m */; };
+		4833EF7F2D3002D20047465C /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4833EF4B2D2FE1A70047465C /* AppleScriptObjC.framework */; };
+		4833EF812D3003990047465C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4833EF802D3003990047465C /* XCTest.framework */; };
+		4833EF832D3005A10047465C /* EmptyTestFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4833EF822D3005A10047465C /* EmptyTestFile.txt */; };
+		4833EF862D300B850047465C /* AppleScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4833EF852D300B850047465C /* AppleScriptRunner.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4833EF752D2FFCDC0047465C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4833EF402D2FE1A70047465C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4833EF472D2FE1A70047465C;
+			remoteInfo = "Drop Rename All";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4833EF482D2FE1A70047465C /* Drop Rename All.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drop Rename All.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4833EF4B2D2FE1A70047465C /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		4833EF4F2D2FE1A70047465C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4833EF512D2FE1A70047465C /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		4833EF512D2FE1A70047465C /* AppDelegate.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppDelegate.scpt; sourceTree = "<group>"; };
 		4833EF532D2FE1A80047465C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4833EF562D2FE1A80047465C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4833EF582D2FE1A80047465C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,6 +42,13 @@
 		4833EF642D2FE7BC0047465C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		4833EF662D2FEC7E0047465C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4833EF682D2FEC9A0047465C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4833EF702D2FFCDC0047465C /* Drop Rename AllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drop Rename AllTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4833EF722D2FFCDC0047465C /* Drop_Rename_AllTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drop_Rename_AllTests.m; sourceTree = "<group>"; };
+		4833EF742D2FFCDC0047465C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4833EF802D3003990047465C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4833EF822D3005A10047465C /* EmptyTestFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmptyTestFile.txt; sourceTree = "<group>"; };
+		4833EF842D300B850047465C /* AppleScriptRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleScriptRunner.h; sourceTree = "<group>"; };
+		4833EF852D300B850047465C /* AppleScriptRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleScriptRunner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +60,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4833EF6D2D2FFCDC0047465C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4833EF812D3003990047465C /* XCTest.framework in Frameworks */,
+				4833EF7F2D3002D20047465C /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -45,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				4833EF4D2D2FE1A70047465C /* Drop Rename All */,
+				4833EF712D2FFCDC0047465C /* Drop Rename AllTests */,
 				4833EF4A2D2FE1A70047465C /* Frameworks */,
 				4833EF492D2FE1A70047465C /* Products */,
 			);
@@ -54,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				4833EF482D2FE1A70047465C /* Drop Rename All.app */,
+				4833EF702D2FFCDC0047465C /* Drop Rename AllTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +94,7 @@
 		4833EF4A2D2FE1A70047465C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4833EF802D3003990047465C /* XCTest.framework */,
 				4833EF4B2D2FE1A70047465C /* AppleScriptObjC.framework */,
 			);
 			name = Frameworks;
@@ -69,7 +103,7 @@
 		4833EF4D2D2FE1A70047465C /* Drop Rename All */ = {
 			isa = PBXGroup;
 			children = (
-				4833EF512D2FE1A70047465C /* AppDelegate.applescript */,
+				4833EF512D2FE1A70047465C /* AppDelegate.scpt */,
 				4833EF652D2FEC7E0047465C /* Localizable.strings */,
 				4833EF532D2FE1A80047465C /* Assets.xcassets */,
 				4833EF552D2FE1A80047465C /* MainMenu.xib */,
@@ -85,6 +119,18 @@
 				4833EF4F2D2FE1A70047465C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4833EF712D2FFCDC0047465C /* Drop Rename AllTests */ = {
+			isa = PBXGroup;
+			children = (
+				4833EF722D2FFCDC0047465C /* Drop_Rename_AllTests.m */,
+				4833EF742D2FFCDC0047465C /* Info.plist */,
+				4833EF822D3005A10047465C /* EmptyTestFile.txt */,
+				4833EF842D300B850047465C /* AppleScriptRunner.h */,
+				4833EF852D300B850047465C /* AppleScriptRunner.m */,
+			);
+			path = "Drop Rename AllTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +153,24 @@
 			productReference = 4833EF482D2FE1A70047465C /* Drop Rename All.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4833EF6F2D2FFCDC0047465C /* Drop Rename AllTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4833EF772D2FFCDC0047465C /* Build configuration list for PBXNativeTarget "Drop Rename AllTests" */;
+			buildPhases = (
+				4833EF6C2D2FFCDC0047465C /* Sources */,
+				4833EF6D2D2FFCDC0047465C /* Frameworks */,
+				4833EF6E2D2FFCDC0047465C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4833EF762D2FFCDC0047465C /* PBXTargetDependency */,
+			);
+			name = "Drop Rename AllTests";
+			productName = "Drop Rename AllTests";
+			productReference = 4833EF702D2FFCDC0047465C /* Drop Rename AllTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -119,6 +183,11 @@
 					4833EF472D2FE1A70047465C = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+					};
+					4833EF6F2D2FFCDC0047465C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4833EF472D2FE1A70047465C;
 					};
 				};
 			};
@@ -137,6 +206,7 @@
 			projectRoot = "";
 			targets = (
 				4833EF472D2FE1A70047465C /* Drop Rename All */,
+				4833EF6F2D2FFCDC0047465C /* Drop Rename AllTests */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +222,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4833EF6E2D2FFCDC0047465C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4833EF832D3005A10047465C /* EmptyTestFile.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -159,12 +237,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4833EF522D2FE1A70047465C /* AppDelegate.applescript in Sources */,
+				4833EF522D2FE1A70047465C /* AppDelegate.scpt in Sources */,
 				4833EF502D2FE1A70047465C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4833EF6C2D2FFCDC0047465C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4833EF862D300B850047465C /* AppleScriptRunner.m in Sources */,
+				4833EF732D2FFCDC0047465C /* Drop_Rename_AllTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4833EF762D2FFCDC0047465C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4833EF472D2FE1A70047465C /* Drop Rename All */;
+			targetProxy = 4833EF752D2FFCDC0047465C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4833EF552D2FE1A80047465C /* MainMenu.xib */ = {
@@ -300,6 +395,32 @@
 			};
 			name = Release;
 		};
+		4833EF782D2FFCDC0047465C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Drop Rename AllTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.b23prodtm.info.Drop-Rename-AllTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drop Rename All.app/Contents/MacOS/Drop Rename All";
+			};
+			name = Debug;
+		};
+		4833EF792D2FFCDC0047465C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Drop Rename AllTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.b23prodtm.info.Drop-Rename-AllTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drop Rename All.app/Contents/MacOS/Drop Rename All";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +440,16 @@
 				4833EF5D2D2FE1A80047465C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4833EF772D2FFCDC0047465C /* Build configuration list for PBXNativeTarget "Drop Rename AllTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4833EF782D2FFCDC0047465C /* Debug */,
+				4833EF792D2FFCDC0047465C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

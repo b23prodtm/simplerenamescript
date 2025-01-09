@@ -9,14 +9,91 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Drop Rename All/AppDelegate.applescript"
-            timestampString = "758115167.207286"
+            filePath = "Drop Rename AllTests/Drop_Rename_AllTests.m"
+            timestampString = "758120297.7919199"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "on applicationWillFinishLaunching_(aNotification)"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-testExample"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Drop_Rename_AllTests testExample]"
+                  moduleName = "Drop Rename AllTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macpro1/OpenSource/Drop%20Rename%20All/Drop%20Rename%20AllTests/Drop_Rename_AllTests.m"
+                  timestampString = "758127496.588708"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "173">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Drop_Rename_AllTests testExample]"
+                  moduleName = "Drop Rename AllTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macpro1/OpenSource/Drop%20Rename%20All/Drop%20Rename%20AllTests/Drop_Rename_AllTests.m"
+                  timestampString = "758127496.5928791"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "205">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Drop_Rename_AllTests testExample]"
+                  moduleName = "Drop Rename AllTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macpro1/OpenSource/Drop%20Rename%20All/Drop%20Rename%20AllTests/Drop_Rename_AllTests.m"
+                  timestampString = "758127496.596656"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "881">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Drop_Rename_AllTests testExample]"
+                  moduleName = "Drop Rename AllTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macpro1/OpenSource/Drop%20Rename%20All/Drop%20Rename%20AllTests/Drop_Rename_AllTests.m"
+                  timestampString = "758127496.600644"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "953">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Drop_Rename_AllTests testExample]"
+                  moduleName = "Drop Rename AllTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macpro1/OpenSource/Drop%20Rename%20All/Drop%20Rename%20AllTests/Drop_Rename_AllTests.m"
+                  timestampString = "758127496.604689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1075">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

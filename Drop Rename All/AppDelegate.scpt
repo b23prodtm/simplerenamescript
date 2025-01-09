@@ -11,15 +11,17 @@ script AppDelegate
 	
 	-- IBOutlets
 	property theWindow : missing value
-	
-	on applicationWillFinishLaunching_(aNotification)
-		-- Insert code here to initialize your application before any files are opened
+    on run(arg1, arg2, arg3)
+        -- Insert code here to initialize your application before any files are opened
         -- Prompt for the string to find and the string to replace it with
-        set findString to text returned of (display dialog localizedString("findString") default answer "")
-        set replaceString to text returned of (display dialog localizedString("replaceString") default answer "")
+        set findString to text returned of (display dialog localizedString("findString") default answer arg1)
+        set replaceString to text returned of (display dialog localizedString("replaceString") default answer arg2)
         
         -- Get the files to rename
-        set selectedFiles to (choose file with prompt localizedString("selectedFiles") with multiple selections allowed)
+        set selectedFiles to arg3
+        if selectedFiles = null then
+            (choose file with prompt localizedString("selectedFiles") with multiple selections allowed)
+        end if
         
         -- Loop through each selected file
         repeat with aFile in selectedFiles
@@ -34,7 +36,10 @@ script AppDelegate
                 set name of (aFile as alias) to newFileName
             end tell
         end repeat
-        
+    end run
+
+	on applicationWillFinishLaunching_(aNotification)
+        run script (path to me as text)
         display dialog localizedString("filesRenamed")
 	end applicationWillFinishLaunching_
     
