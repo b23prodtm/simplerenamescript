@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		480EF7EA2D30236000030E8C /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 480EF7E92D30236000030E8C /* AppDelegate.applescript */; };
+		480EF7EC2D302F9D00030E8C /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 480EF7E92D30236000030E8C /* AppDelegate.applescript */; };
+		480EF7ED2D3030BA00030E8C /* AppDelegate.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 480EF7E92D30236000030E8C /* AppDelegate.applescript */; };
 		4833EF4C2D2FE1A70047465C /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4833EF4B2D2FE1A70047465C /* AppleScriptObjC.framework */; };
 		4833EF502D2FE1A70047465C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4833EF4F2D2FE1A70047465C /* main.m */; };
-		4833EF522D2FE1A70047465C /* AppDelegate.scpt in Sources */ = {isa = PBXBuildFile; fileRef = 4833EF512D2FE1A70047465C /* AppDelegate.scpt */; };
 		4833EF542D2FE1A80047465C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4833EF532D2FE1A80047465C /* Assets.xcassets */; };
 		4833EF572D2FE1A80047465C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4833EF552D2FE1A80047465C /* MainMenu.xib */; };
 		4833EF672D2FEC7E0047465C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4833EF652D2FEC7E0047465C /* Localizable.strings */; };
 		4833EF732D2FFCDC0047465C /* Drop_Rename_AllTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4833EF722D2FFCDC0047465C /* Drop_Rename_AllTests.m */; };
 		4833EF7F2D3002D20047465C /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4833EF4B2D2FE1A70047465C /* AppleScriptObjC.framework */; };
 		4833EF812D3003990047465C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4833EF802D3003990047465C /* XCTest.framework */; };
-		4833EF832D3005A10047465C /* EmptyTestFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4833EF822D3005A10047465C /* EmptyTestFile.txt */; };
+		4833EF832D3005A10047465C /* EmptyTestFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4833EF822D3005A10047465C /* EmptyTestFile.txt */; settings = {ASSET_TAGS = (TestUnit, ); }; };
 		4833EF862D300B850047465C /* AppleScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4833EF852D300B850047465C /* AppleScriptRunner.m */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		480EF7E92D30236000030E8C /* AppDelegate.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
 		4833EF482D2FE1A70047465C /* Drop Rename All.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drop Rename All.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4833EF4B2D2FE1A70047465C /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		4833EF4F2D2FE1A70047465C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4833EF512D2FE1A70047465C /* AppDelegate.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppDelegate.scpt; sourceTree = "<group>"; };
 		4833EF532D2FE1A80047465C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4833EF562D2FE1A80047465C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4833EF582D2FE1A80047465C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,7 +105,7 @@
 		4833EF4D2D2FE1A70047465C /* Drop Rename All */ = {
 			isa = PBXGroup;
 			children = (
-				4833EF512D2FE1A70047465C /* AppDelegate.scpt */,
+				480EF7E92D30236000030E8C /* AppDelegate.applescript */,
 				4833EF652D2FEC7E0047465C /* Localizable.strings */,
 				4833EF532D2FE1A80047465C /* Assets.xcassets */,
 				4833EF552D2FE1A80047465C /* MainMenu.xib */,
@@ -177,6 +179,9 @@
 		4833EF402D2FE1A70047465C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					TestUnit,
+				);
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = b23FF4U;
 				TargetAttributes = {
@@ -227,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4833EF832D3005A10047465C /* EmptyTestFile.txt in Resources */,
+				480EF7ED2D3030BA00030E8C /* AppDelegate.applescript in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4833EF522D2FE1A70047465C /* AppDelegate.scpt in Sources */,
+				480EF7EA2D30236000030E8C /* AppDelegate.applescript in Sources */,
 				4833EF502D2FE1A70047465C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +254,7 @@
 			files = (
 				4833EF862D300B850047465C /* AppleScriptRunner.m in Sources */,
 				4833EF732D2FFCDC0047465C /* Drop_Rename_AllTests.m in Sources */,
+				480EF7EC2D302F9D00030E8C /* AppDelegate.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

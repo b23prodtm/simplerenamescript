@@ -30,7 +30,7 @@
     
     
     AppleScriptRunner *runner = [[AppleScriptRunner alloc] init];
-    NSInteger value = [runner runAppleScriptWithArgs:@"TestFile.":@"Test.":@"EmptyTestFile.txt"];
+    NSInteger value = [runner runAppleScriptName:@"AppDelegate"];
     XCTAssertEqual(value, 0, @"Value should be equal to 0");
 }
     

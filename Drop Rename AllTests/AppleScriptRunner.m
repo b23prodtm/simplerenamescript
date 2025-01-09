@@ -12,9 +12,9 @@
 
 @implementation AppleScriptRunner
     
-- (BOOL)runAppleScriptWithArgs: (NSString *)findName: (NSString *)replaceName :(NSString *)filename {
+- (BOOL)runAppleScriptName:(NSString *)name {
     // Load the AppleScript file
-    NSString *scriptPath = [[NSBundle mainBundle] pathForResource:@"../Resources/AppDelegate" ofType:@"scpt"];
+    NSString *scriptPath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@%@", @"../Resources/", name] ofType:@"applescript"];
     NSError *error = nil;
     
     // Read the script content

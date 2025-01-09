@@ -10,6 +10,6 @@
 
 @interface AppleScriptRunner : NSObject
     
-- (BOOL)runAppleScriptWithArgs: (NSString *)findName: (NSString *)replaceName: (NSString *)filename;
+- (BOOL)runAppleScriptName: (NSString *)name;
     
 @end
