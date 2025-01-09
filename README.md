@@ -1,4 +1,5 @@
 # Rename Script
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/b23prodtm/simplerenamescript/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/b23prodtm/simplerenamescript/tree/main)
 Example:
 A list of MP3 files would be renamed to Song-SomePlaylist.MP3 like that
 ./Rename.sh ".mp3" "-SomePlayList.mp3"
