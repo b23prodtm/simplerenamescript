@@ -1,0 +1,11 @@
+/* 
+  AppDelegate.strings
+  Drop Rename All
+
+  Created by MacPro1 on 09/01/2025.
+  Copyright © 2025 b23FF4U. All rights reserved.
+*/
+"findString" = "Entrez la chaîne à rechercher :";
+"replaceString" = "Entrez la chaîne à remplacer par :";
+"selectedFiles" = "Sélectionnez les fichiers à renommer :";
+"filesRenamed" = "Fichiers renommés avec succès !";
